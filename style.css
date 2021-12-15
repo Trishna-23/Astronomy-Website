@@ -1,0 +1,61 @@
+.grid-container {
+  background-image: url("https://i.pinimg.com/originals/7a/81/24/7a81240359e212d40a665222ff3d13aa.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 100px;
+  image-rendering: -webkit-optimize-contrast;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  padding-bottom: 70px;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+h2 {
+  color: cornsilk;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  color: cornsilk;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  line-height: 1.5;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div.topnav {
+  background-color: rgb(100, 41, 82);
+  overflow: 100%;
+  white-space: wrap;
+  border: 4px;
+  border-color: cornsilk;
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: center;
+}
+
+div.topnav a {
+  display: inline-block;
+  color: cornsilk;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px;
+  text-decoration: none;
+}
+
+div.topnav a:hover {
+  background-color: rgb(124, 63, 115);
+}
