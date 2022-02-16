@@ -1,5 +1,5 @@
 .grid-container {
-  background-image: url("https://i.pinimg.com/originals/7a/81/24/7a81240359e212d40a665222ff3d13aa.jpg");
+  background-image: url("https://i.pinimg.com/originals/2f/59/b6/2f59b6abdd86b71c91c05072d2b42793.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   padding: 100px;
@@ -15,8 +15,8 @@ body {
 }
 
 h2 {
-  color: cornsilk;
-  text-align: center;
+  color: rgb(253, 237, 165);
+  margin-left: 360px;
   font-size: 30px;
 }
 
@@ -36,15 +36,8 @@ p {
   line-height: 1.5;
 }
 
-img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
 div.topnav {
-  background-color: rgb(100, 41, 82);
+  background-color: rgb(158, 43, 35);
   overflow: 100%;
   white-space: wrap;
   border: 4px;
@@ -64,6 +57,16 @@ div.topnav a {
 }
 
 div.topnav a:hover {
-  background-color: rgb(124, 63, 115);
+  background-color: rgb(197, 55, 36);
 }
 
+.column {
+  float: left;
+  width: 20%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

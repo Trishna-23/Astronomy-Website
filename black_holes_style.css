@@ -1,5 +1,5 @@
 .grid-container {
-  background-image: url("https://i.pinimg.com/originals/7a/81/24/7a81240359e212d40a665222ff3d13aa.jpg");
+  background-image: url("https://d.newsweek.com/en/full/1781173/black-hole.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   padding: 100px;
@@ -31,8 +31,8 @@ p {
   color: cornsilk;
   font-size: 21.5px;
   text-align: left;
-  margin-left: 360px;
-  margin-right: 360px;
+  margin-left: 300px;
+  margin-right: 300px;
   line-height: 1.5;
 }
 
@@ -44,7 +44,7 @@ img {
 }
 
 div.topnav {
-  background-color: rgb(100, 41, 82);
+  background-color: rgb(223, 107, 61);
   overflow: 100%;
   white-space: wrap;
   border: 4px;
@@ -64,6 +64,5 @@ div.topnav a {
 }
 
 div.topnav a:hover {
-  background-color: rgb(124, 63, 115);
+  background-color: rgb(226, 129, 84);
 }
-

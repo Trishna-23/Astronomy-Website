@@ -1,0 +1,120 @@
+.grid-container {
+  background-image: url("https://www.wallpaperuse.com/wallp/4-44584_m.jpghttps://trancentral.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 100px;
+  image-rendering: -webkit-optimize-contrast;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  padding-bottom: 70px;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+#intro {
+  color: rgb(253, 237, 165);
+  text-align: center;
+  font-size: 30px;
+}
+
+#tr {
+  color: rgb(253, 237, 165);
+  text-align: right;
+  font-size: 30px;
+  margin-right: 360px;
+}
+
+#gs {
+  color: rgb(253, 237, 165);
+  text-align: left;
+  font-size: 30px;
+  margin-left: 360px;
+}
+
+h3 {
+  color: cornsilk;
+  text-align: left;
+  margin-left: 200px;
+  font-size: 25px;
+}
+
+#one {
+  color: cornsilk;
+  font-size: 21.5px;
+  text-align: left;
+  margin-left: 360px;
+  margin-right: 360px;
+  line-height: 1.5;
+}
+
+#me {
+  float: left;
+  width: 350px;
+  height: 350px;
+}
+
+#ve {
+  float: right;
+  width: 500px;
+  height: 350px;
+}
+
+#ea {
+  float: left;
+  width: 350px;
+  height: 350px;
+}
+
+div.topnav {
+  background-color: rgb(40, 39, 100);
+  overflow: 100%;
+  white-space: wrap;
+  border: 4px;
+  border-color: cornsilk;
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: center;
+}
+
+div.topnav a {
+  display: inline-block;
+  color: cornsilk;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 18px;
+  text-decoration: none;
+}
+
+div.topnav a:hover {
+  background-color: rgb(55, 54, 121);
+}
+
+#two {
+  color: cornsilk;
+  font-size: 21.5px;
+  text-align: right;
+  margin-left: 360px;
+  margin-right: 360px;
+  line-height: 1.5;
+}
+
+#three {
+  color: cornsilk;
+  font-size: 21.5px;
+  text-align: left;
+  margin-left: 360px;
+  margin-right: 360px;
+  line-height: 1.5;
+}
+
+#four {
+  color: cornsilk;
+  font-size: 21.5px;
+  text-align: right;
+  margin-left: 360px;
+  margin-right: 360px;
+  line-height: 1.5;
+}
