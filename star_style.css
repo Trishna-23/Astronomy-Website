@@ -16,8 +16,9 @@ body {
 
 h2 {
   color: rgb(253, 237, 165);
-  margin-left: 360px;
   font-size: 30px;
+  margin-left: 360px;
+  margin-right: 360px;
 }
 
 h3 {
