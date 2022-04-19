@@ -68,6 +68,12 @@ body {
   height: 350px;
 }
 
+#ju {
+  float: left;
+  width: 330px;
+  height:350px;
+}
+
 div.topnav {
   background-color: rgb(40, 39, 100);
   overflow: 100%;
@@ -123,6 +129,15 @@ div.topnav a:hover {
   color: cornsilk;
   font-size: 21.5px;
   text-align: left;
+  margin-left: 360px;
+  margin-right: 360px;
+  line-height: 1.5;
+}
+
+#six {
+  color: cornsilk;
+  font-size: 21.5px;
+  text-align: right;
   margin-left: 360px;
   margin-right: 360px;
   line-height: 1.5;
