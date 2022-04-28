@@ -74,6 +74,25 @@ body {
   height:350px;
 }
 
+#sat {
+  float: right;
+  width: 520px;
+  height: 310px;
+}
+
+#ig {
+  color: rgb(253, 237, 165);
+  text-align: right;
+  margin-right: 360px;
+  font-size: 30px;
+}
+
+#ur {
+  float: left;
+  width: 350px;
+  height: 350px;
+}
+
 div.topnav {
   background-color: rgb(40, 39, 100);
   overflow: 100%;
@@ -138,6 +157,15 @@ div.topnav a:hover {
   color: cornsilk;
   font-size: 21.5px;
   text-align: right;
+  margin-left: 360px;
+  margin-right: 360px;
+  line-height: 1.5;
+}
+
+#seven {
+  color: cornsilk;
+  font-size: 21.5px;
+  text-align: left;
   margin-left: 360px;
   margin-right: 360px;
   line-height: 1.5;

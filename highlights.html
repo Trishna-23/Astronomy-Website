@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="highlights_style.css" rel="stylesheet" type="text/css" />
+    
+    <title>Highlights</title>
+  </head>
+    <body>
+    <header>
+      <div class="grid-container">
+        <div style="font-size:85px; text-align:left; font-family:courrier; color:cornsilk; margin-left:107px;">Highlights</div>
+      </div>
+
+    </header>
+
+    <div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="stars.html">Stars</a>
+  <a href="planets.html">Planets</a>
+  <a href="celestial_events.html">Celestial Events</a>
+  <a href="highlights.html">Highlights</a>
+
+</div>
+
+
+<div class="slideshow-container">
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+
+<div class="mySlides fade">
+  <img src="https://i.natgeofe.com/n/8a3e578f-346b-479f-971d-29dd99a6b699/nationalgeographic_2751013_16x9.jpg" style="width:1000px; height:800px;">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://spacetango.com/wp-content/uploads/2020/10/BannerOption2-1-scaled.jpeg" style="width:1000px; height:800px;">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://www.universetoday.com/wp-content/uploads/2013/04/saturn_hurricane.jpg" style="width:1000px; height:800px;">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
