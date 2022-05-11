@@ -7,11 +7,17 @@
   margin-left: -10px;
   margin-right: -10px;
   margin-top: -10px;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
 }
 
 body {
   background-color: rgb(0, 0, 0);
+}
+
+img {
+  border-color: rgb(39, 15, 83);
+  border-style:double;
+  border-width:5px;
 }
 
 p {
@@ -48,7 +54,7 @@ div.topnav a:hover {
 }
 
 {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: courrier; sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
@@ -66,7 +72,7 @@ img {vertical-align: middle;}
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: 0px;
   color: cornsilk;
   font-weight: bold;
   font-size: 18px;
@@ -89,13 +95,14 @@ img {vertical-align: middle;}
 /* Caption text */
 .text {
   color: cornsilk;
-  font-size: 30px;
+  font-size: 25px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-family: courrier;
+  line-height: 1.5;
 }
 
 /* The dots/bullets/indicators */
@@ -124,3 +131,4 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
+

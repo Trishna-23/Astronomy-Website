@@ -67,3 +67,13 @@ div.topnav a:hover {
   background-color: rgb(124, 63, 115);
 }
 
+.column {
+  float: left;
+  width: 20%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

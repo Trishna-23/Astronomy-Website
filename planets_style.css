@@ -80,17 +80,23 @@ body {
   height: 310px;
 }
 
+#ur {
+  float: left;
+  width: 350px;
+  height: 360px;
+}
+
+#nep {
+  float: right;
+  width: 350px;
+  height: 350px;
+}
+
 #ig {
   color: rgb(253, 237, 165);
   text-align: right;
   margin-right: 360px;
   font-size: 30px;
-}
-
-#ur {
-  float: left;
-  width: 350px;
-  height: 350px;
 }
 
 div.topnav {
@@ -163,6 +169,24 @@ div.topnav a:hover {
 }
 
 #seven {
+  color: cornsilk;
+  font-size: 21.5px;
+  text-align: left;
+  margin-left: 360px;
+  margin-right: 360px;
+  line-height: 1.5;
+}
+
+#eight {
+  color: cornsilk;
+  font-size: 21.5px;
+  text-align: right;
+  margin-left: 360px;
+  margin-right: 360px;
+  line-height: 1.5;
+}
+
+#nine {
   color: cornsilk;
   font-size: 21.5px;
   text-align: left;
